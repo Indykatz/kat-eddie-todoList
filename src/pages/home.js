@@ -1,9 +1,11 @@
+import { Content } from "../styles/app.styles";
+
 const Home = () => {
   return (
     <div>
-      <div>
+      <Content>
         <h1>Home</h1>
-      </div>
+      </Content>
     </div>
   );
 };

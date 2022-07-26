@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { NavFlex, NavItem } from "../styles/header.styles";
+import { NavFlex, NavItem } from "../styles/navbar.styles";
 
 const Nav = () => {
   const navbarItems = ["Home", "ToDo", "Archive"];

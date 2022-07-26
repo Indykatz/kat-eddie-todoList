@@ -1,7 +1,11 @@
+import { HeaderFlex } from "../styles/header.styles";
+
 const Header = () => {
   return (
     <div>
-      <div><h1>Header</h1></div>
+      <HeaderFlex>
+        <h1>Header</h1>
+      </HeaderFlex>
     </div>
   );
 };
