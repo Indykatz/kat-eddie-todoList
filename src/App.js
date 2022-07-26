@@ -6,13 +6,15 @@ import Archive from "./pages/archive";
 import { TheApp } from "./styles/app.styles";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Nav from "./components/navbar";
 
 function App() {
   return (
     <TheApp>
       <div>
-        <Header />
         <BrowserRouter>
+          <Header />
+          <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/todoList" element={<TodoList />} />
