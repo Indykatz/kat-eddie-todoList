@@ -1,9 +1,11 @@
+import { Content } from "../styles/app.styles";
+
 const Todo = () => {
   return (
     <div>
-      <div>
+      <Content>
         <h1>Todo List</h1>
-      </div>
+      </Content>
     </div>
   );
 };

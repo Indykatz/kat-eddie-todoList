@@ -1,7 +1,9 @@
+import { Content } from "../styles/app.styles";
+
 const Archive = () => {
   return (
     <div>
-      <div><h1>Archive</h1></div>
+      <Content><h1>Archive</h1></Content>
     </div>
   );
 };

@@ -1,7 +1,11 @@
+import { FooterFlex } from "../styles/footer.styles";
+
 const Footer = () => {
   return (
     <div>
-      <div><h1>Footer</h1></div>
+      <FooterFlex>
+        <h1>Footer</h1>
+      </FooterFlex>
     </div>
   );
 };
