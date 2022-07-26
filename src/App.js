@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import TodoList from "./pages/todoList";
 import Archive from "./pages/archive";
 import { TheApp } from "./styles/app.styles";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Nav from "./components/navbar";
+import Todo from "./pages/todo";
+import Home from "./pages/home";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/todoList" element={<TodoList />} />
+            <Route path="/todo" element={<Todo />} />
             <Route path="/archive" element={<Archive />} />
           </Routes>
         </BrowserRouter>
