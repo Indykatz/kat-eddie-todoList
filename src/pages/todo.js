@@ -1,4 +1,4 @@
-const TodoList = () => {
+const Todo = () => {
   return (
     <div>
       <div>
@@ -8,4 +8,4 @@ const TodoList = () => {
   );
 };
 
-export default TodoList;
+export default Todo;
